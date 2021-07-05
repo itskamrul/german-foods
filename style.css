@@ -2,9 +2,13 @@ body {
     font-family: 'Righteous', cursive;
     margin: 0;
     padding: 0;
+    
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
 }
 #top-banner{
     background-image:url(images/shapes/top-bennar-2.png);
@@ -19,14 +23,16 @@ h1{
 }
 .flaxible-containar{
     display: flex;
+    padding-bottom: 150px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 75%;
 }
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato );
@@ -34,4 +40,17 @@ h1{
     color: white;
     font-weight: 700;
     border-radius: 7px;
+}
+.abouth-info{
+    width: 50%;
+    text-align: center;
+    padding-right: 5%;
+}
+.abouth-info img{
+    width: 50%;
+    
+}
+#abouth-containar{
+    background-image: url(images/shapes/bg2.jpg);
+    height: 392px;
 }

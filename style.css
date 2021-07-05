@@ -1,0 +1,37 @@
+body {
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 40px;
+}
+#top-banner{
+    background-image:url(images/shapes/top-bennar-2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.tomato-color{
+    color: tomato;
+}
+.orange-color{
+    color: orange;
+}
+.flaxible-containar{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato );
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 7px;
+}

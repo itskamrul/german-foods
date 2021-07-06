@@ -2,55 +2,127 @@ body {
     font-family: 'Righteous', cursive;
     margin: 0;
     padding: 0;
-    
+
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-p{
+
+p {
     font-size: 20px;
 }
-#top-banner{
-    background-image:url(images/shapes/top-bennar-2.png);
+
+#top-banner {
+    background-image: url(images/shapes/top-bennar-2.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.tomato-color{
+
+.tomato-color {
     color: tomato;
 }
-.orange-color{
+
+.orange-color {
     color: orange;
 }
-.flaxible-containar{
+
+.flaxible-containar {
     display: flex;
     padding-bottom: 150px;
 }
-.half-width{
+
+.half-width {
     width: 50%;
     padding-left: 5%;
 }
-.half-width img{
+
+.half-width img {
     width: 75%;
 }
 
-.link-button{
+.link-button {
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato );
+    background-image: linear-gradient(orange, tomato);
     padding: 10px 20px;
     color: white;
     font-weight: 700;
     border-radius: 7px;
 }
-.abouth-info{
+
+.abouth-info {
     width: 50%;
     text-align: center;
     padding-right: 5%;
 }
-.abouth-info img{
+
+.abouth-info img {
     width: 50%;
-    
+
 }
-#abouth-containar{
+
+#abouth-containar {
     background-image: url(images/shapes/bg2.jpg);
     height: 392px;
+}
+
+.recipies-item {
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    padding-top: 1%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 50px gray;
+    border-radius: 30px;
+
+}
+
+#recipies-header {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 150px;
+
+}
+
+.recipies-item img {
+    width: 90%;
+}
+
+#followers-containar {
+    margin-left: 8%;
+    margin-right: 8%;
+    /* border: 1px solid; */
+    padding: 1px;
+    box-shadow: 5px 10px 50px #888888;
+    border-radius: 30px;
+
+}
+
+.followers {
+    padding-right: 20%;
+    padding-left: 10%;
+
+
+}
+
+.followers h1 {
+    font-size: 35px;
+}
+
+.followers p {
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    background-image: url(./images/shapes/buttom-banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 200px;
+    padding-bottom: 130px;
+    padding-top: 80px;
 }

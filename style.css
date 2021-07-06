@@ -57,7 +57,7 @@ p {
 }
 
 .abouth-info img {
-    width: 50%;
+    width: 342px;
 
 }
 
@@ -119,10 +119,15 @@ p {
 
 footer {
     text-align: center;
-    background-image: url(./images/shapes/buttom-banner.png);
+    /* background-image: url(./images/shapes/buttom-banner.png);
     background-repeat: no-repeat;
     background-size: 100%;
     margin-top: 200px;
     padding-bottom: 130px;
-    padding-top: 80px;
+    padding-top: 80px; */
+}
+#footer-banner{
+    background-image: url(./images/shapes/buttom-banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
